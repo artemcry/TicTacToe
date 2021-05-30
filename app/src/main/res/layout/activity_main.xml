@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="238dp"
+        android:layout_height="338dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetBottom="0dp"
+            android:onClick="play"
+            android:text="Грати"
+            android:textColor="#B5BBCD"
+            android:textStyle="bold"
+            app:backgroundTint="@color/button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mode_l"
+                android:layout_width="12dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="changeModeLeft"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#9BA3DD"
+                android:textStyle="bold"
+                app:backgroundTint="#333855" />
+
+            <TextView
+                android:id="@+id/modeText"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#353D5A"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Player vs "
+                android:textAlignment="center"
+                android:textColor="#B4B7C6"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/mode_r"
+                android:layout_width="12dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="changeModeRight"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#9BA3DD"
+                android:textStyle="bold"
+                app:backgroundTint="#333855" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/diffLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/diff_l"
+                android:layout_width="12dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="changeDiffLeft"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#9BA3DD"
+                android:textStyle="bold"
+                app:backgroundTint="#333855" />
+
+            <TextView
+                android:id="@+id/diffText"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#353D5A"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Medium"
+                android:textAlignment="center"
+                android:textColor="#B4B7C6"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/diff_r"
+                android:layout_width="12dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="changeDiffRight"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#9BA3DD"
+                android:textStyle="bold"
+                app:backgroundTint="#333855" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ratingbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetBottom="0dp"
+            android:onClick="showRating"
+            android:text="Рейтинг"
+            android:textColor="#B5BBCD"
+            android:textStyle="bold"
+            app:backgroundTint="@color/button"
+            app:iconTint="#343550" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:insetBottom="0dp"
+            android:onClick="login"
+            android:text="Ввести Ім'я"
+            android:textColor="#B5BBCD"
+            android:textStyle="bold"
+            app:backgroundTint="@color/button" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

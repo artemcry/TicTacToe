@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".GameActivity">
+
+    <TableLayout
+        android:id="@+id/table"
+        style='android:background="#ffff0000"'
+        android:layout_width="0dp"
+        android:layout_height="446dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_0"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/krona_one"
+                android:includeFontPadding="false"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:keepScreenOn="false"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+            <Button
+                android:id="@+id/button_1"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+            <Button
+                android:id="@+id/button_2"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="211dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_3"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+            <Button
+                android:id="@+id/button_4"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+            <Button
+                android:id="@+id/button_5"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="210dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_6"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+            <Button
+                android:id="@+id/button_7"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+            <Button
+                android:id="@+id/button_8"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krona_one"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="clickButton"
+                android:textColor="#696B87"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:backgroundTint="#303D50" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:background="#443A55"
+        android:onClick="resetRound"
+        android:text="Скинути"
+        android:textColor="#83838F"
+        app:backgroundTint="@color/button"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score_x"
+        android:layout_width="96dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="X: 0"
+        android:textColor="#7F7D91"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/table"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="89dp"
+        android:layout_height="50dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="backToMenu"
+        android:text="Меню"
+        android:textColor="#83838F"
+        app:backgroundTint="@color/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score_draw"
+        android:layout_width="150dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#7F7D91"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/table"
+        app:layout_constraintEnd_toStartOf="@+id/score_o"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/score_x"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/score_o"
+        android:layout_width="98dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="0 :O"
+        android:textAlignment="textEnd"
+        android:textColor="#7F7D91"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

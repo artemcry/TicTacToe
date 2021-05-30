@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="236dp"
+        android:layout_height="373dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ваше Iм'я (X)"
+            android:textColor="#B4B7C6"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/playerAName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введіть Iм'я"
+            android:inputType="textPersonName"
+            android:maxLength="10"
+            android:textColor="#8F929E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:id="@+id/bPlayerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iм'я Супротивника (O)"
+            android:textColor="#B4B7C6"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/playerBName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Введіть Iм'я"
+            android:inputType="textPersonName"
+            android:maxLength="10"
+            android:textColor="#8F929E" />
+
+        <Space
+            android:id="@+id/bottomSpacer"
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:id="@+id/errorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введіть ім'я"
+            android:textColor="#D53939"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="play"
+            android:text="ОК"
+            app:backgroundTint="@color/button"
+            app:iconTint="#B4B7C6" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
